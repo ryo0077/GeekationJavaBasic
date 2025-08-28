@@ -14,7 +14,7 @@ public class ComparisonLogicalOperators {
 	   
 	   boolean isGreaterA = (a > b);
 	   boolean weather = (isSunny && isWarm);
-	   boolean andResult = (x >= 0) & (y % 2 == 0);
+	   boolean andResult = (x >= 0) && (y % 2 == 0);
 	   boolean hasPermisson = false;
 	   
 	   
