@@ -3,10 +3,13 @@ package basicSyntax;
 public class Main {
 
 	public static void main(String[] args) {
-	 System.out.println(0.25);
-	 System.out.println(-5.0);
-	 System.out.println(5.0 - 0.25);
+	  
+	  GeekIntroduction geek = new GeekIntroduction();
+	    geek.greeting(10, 125);
+	    geek.specialSkill(8,16);
+	    geek.specialSkill(0, 5);
+	    geek.specialSkill(20, 10);
+	    geek.specialSkill(30, 310);
 
 	}
-
 }
