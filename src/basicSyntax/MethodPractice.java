@@ -1,6 +1,15 @@
 package basicSyntax;
 
 public class MethodPractice {
+	 public static void main(String[] args) {
+		  int a = 10;
+		  int b = 5;
+		  
+		  printResult("足し算", add(a, b));
+		  printResult("引き算", subtract(a, b));
+		  printResult("掛け算", multiply(a, b));
+		  printResult("割り算", divide(a, b));
+	 }
 	 
 		 public static int add(int c, int d) {
 			 return c + d;
@@ -14,16 +23,9 @@ public class MethodPractice {
 		 public static int divide(int c, int d) {
 			 return c / d;
 		 }
-		 public static void main(String[] args) {
-			  int a = 10;
-			  int b = 5;
-		
-	     String x = "計算結果は";
-	     String y = "です。";
-	     
-	     System.out.println(x + add(a, b) + y);
-	     System.out.println(x + subtract(a, b) + y);
-	     System.out.println(x + multiply(a, b) + y);
-	     System.out.println(x + divide(a, b) + y);
-	}
+	
+	     public static void printResult(String operation, int result) {
+	    	 System.out.println("計算結果は" + result + "です。");
+	     }
+	    
 }
