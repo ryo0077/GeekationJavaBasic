@@ -1,16 +1,7 @@
 package basicSyntax;
 
-//public class MethodPractice {
-//
-//	public static void main(String[] args) {
-//		// TODO 自動生成されたメソッド・スタブ
-//
-//	}
-//
-//}
 public class MethodPractice {
 	 
-	
 		 public static int add(int c, int d) {
 			 return c + d;
 		 }
